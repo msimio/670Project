@@ -1,11 +1,24 @@
 import React from "react";
-import { View, StyleSheet, Switch } from "react-native";
+import { View, StyleSheet, Switch, TextInput, Button } from "react-native";
 import { useTheme } from 'react-native-paper';
 import CustomButton from './CustomButton';
 import CustomText from './CustomText';
+import { Component, useEffect, useState } from "react";
+
 
 export default function HomeScreen({ navigation, toggleTheme, isDarkMode }) {
   const theme = useTheme();
+
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const login = () => 
+  {
+    //Make API Call here
+    
+
+    
+  }
 
   return (
     <View style={[styles.container, { backgroundColor: theme.colors.background }]}>
@@ -15,6 +28,35 @@ export default function HomeScreen({ navigation, toggleTheme, isDarkMode }) {
         onValueChange={toggleTheme}
         style={styles.switch}
       />
+
+      <TextInput
+      label="Username"
+      style={{width:142}}
+      placeholder="Username"
+      mode="outlined"
+      value={username}
+      onChangeText={username => setUsername(username)}
+      />
+
+      <TextInput
+      label="Password"
+      style={{width:142}}
+      placeholder="Password"
+      mode="outlined"
+      value={password}
+      onChangeText={password => setPassword(password)}
+      />
+
+     
+
+        <CustomButton onPress={login} style={styles.button}>
+          Login
+        </CustomButton>
+
+
+
+
+
       <View style={styles.buttonContainer}>
         <CustomButton onPress={() => navigation.navigate('Dashboard')} style={styles.button}>
           Let's Go! 🚀
