@@ -7,11 +7,10 @@ This app is designed to help improve your concentration and focus. This app is a
 The app includes a backend implementation for users to share their scores via a MongoDB database. The initial release includes the capability for leaderboards across the three different levels but might include messaging in the future.
 
 # Screenshots
-
-![Screenshot_20240602-175912](https://github.com/msimio/670Project/assets/137801161/ece42ada-bd4b-46f0-8289-025600ae1be3)
-![Screenshot_20240602-175917](https://github.com/msimio/670Project/assets/137801161/baa4bd80-f300-465d-8e1a-6ab1eab2f23a)
-![Screenshot_20240602-175922](https://github.com/msimio/670Project/assets/137801161/c3cd2f3b-df97-48df-bc55-a3252b3982aa)
-![Screenshot_20240602-175927](https://github.com/msimio/670Project/assets/137801161/bd8ef3e0-2a9b-4f9e-be77-c2ac07b7c1c4)
+![1718212012552](https://github.com/msimio/670Project/assets/122844465/31b1b4b8-d4da-4cab-9d89-4a340dec57c4)
+![1718211986224](https://github.com/msimio/670Project/assets/122844465/8dc8c058-03ae-443e-83f1-a8947dd14dbc)
+![1718212064130](https://github.com/msimio/670Project/assets/122844465/c88527af-4b5d-4a92-a263-b29781292424)
+![1718212114781](https://github.com/msimio/670Project/assets/122844465/55440532-996b-4586-8144-295d63753b45)
 
 # Server API Design
 
